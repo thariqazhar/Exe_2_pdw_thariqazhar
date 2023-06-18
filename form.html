@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style_form.css">
+    </head>
+    <body>
+        <fieldset>
+            <div class="container">
+                <div class="header">
+                    <h3>Survey Kepuasan Viewer Dengan Lagu</h3>
+                    <h3>"Jadi Kekasihku Saja"</h3>
+                    <p></p>
+                </div>
+                <form action="">
+                    <label for="nama">Nama</label><br>
+                    <input type="text" placeholder="Nama anda" id="nama" size="50"><br><br>
+                    
+                    <label for="date">Tanggal pengisian survey</label><br>
+                    <input type="date" id="date" name="date" value="date"><br><br>
+
+                    <label for="pertama">Pertama mendengar lagu ini dari</label><br>
+                    <select name="pertama" id="pertama" value="pertama">
+                        <option>TikTok</option>
+                        <option>Youtube</option>
+                        <option>Spotify</option>
+                        <option>Instagram</option>
+                    </select><br>
+
+                        <p>Feeling anda setelah mendengarkan lagu ini</p>
+                        <input type="radio" name="feeling" id="bahagia" value="bahagia">
+                        <label for="bahagia">Bahagia</label><br>
+                        <input type="radio" name="feeling" id="sedih" value="sedih">
+                        <label for="sedih">Sedih</label><br>
+                        <input type="radio" name="feeling" id="marah" value="marah">
+                        <label for="marah">Marah</label><br>
+                        <input type="radio" name="feeling" id="netral" value="netral">
+                        <label for="netral">Netral, dll</label><br><br>
+
+                    <label for="">Pendapat anda tentang lagu ini</label><br>
+                    <textarea placeholder="Tulis disini" name="pendapat" id="pendapat" cols="50" rows="5"></textarea><br><br>
+
+                    <label for="">Saran atau kritik mengenai lagu ini</label><br>
+                    <textarea placeholder="Tulis disini" name="saran" id="saran" cols="50" rows="5"></textarea><br><br>
+
+                    <button class="submit" type="submit" onclick="kirimData()">Kirim</button>
+                </form>
+                <p></p>
+                <button class="back"><a href="index.html">Home</a></button>
+            </div>
+            <script src="script.js"></script>
+        </fieldset>
+    </body>
+</html>

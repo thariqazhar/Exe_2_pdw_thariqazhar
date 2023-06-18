@@ -1,0 +1,38 @@
+body{
+    background-color: aliceblue;
+    justify-content: center;
+    display: flex;
+}
+
+h1{ 
+    font-family: Arial, Helvetica, sans-serif;
+    color:black
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+            text-align: center;
+            border: 2px solid darkred;
+            background: navajowhite;
+            color: black;
+            width: 600px;
+            box-shadow: 1px 1px 2px;
+            border-radius: 10px;
+            padding: 3px 10px;
+            cursor: pointer;
+}
+
+.btn{
+    justify-content: center;
+    text-align: center;
+}
+
+.pendaftaran, a{
+    background-color: navajowhite;
+    color: black;
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+}
